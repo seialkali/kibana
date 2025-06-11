@@ -42,7 +42,7 @@ groups:
         # options:
         #   - option: OPTIONAL
         #     description: "" OPTIONAL
-        # type: OPTIONAL ONe of static/dynamic
+        # type: OPTIONAL One of static/dynamic
         # platforms: OPTIONAL, list each supported platform
         #   - cloud
         #   - serverless
