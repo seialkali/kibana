@@ -266,9 +266,7 @@ paths:
       tags:
         - connectors
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/actions/connector/{id}:
     delete:
@@ -295,9 +293,7 @@ paths:
       tags:
         - connectors
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       operationId: get-actions-connector-id
@@ -355,9 +351,7 @@ paths:
       tags:
         - connectors
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       operationId: post-actions-connector-id
@@ -508,9 +502,7 @@ paths:
       tags:
         - connectors
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       operationId: put-actions-connector-id
@@ -641,9 +633,7 @@ paths:
       tags:
         - connectors
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/actions/connector/{id}/_execute:
     post:
@@ -765,9 +755,7 @@ paths:
       tags:
         - connectors
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/actions/connectors:
     get:
@@ -785,9 +773,7 @@ paths:
       tags:
         - connectors
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/alerting/rule/{id}:
     delete:
@@ -819,9 +805,7 @@ paths:
       tags:
         - alerting
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       operationId: get-alerting-rule-id
@@ -1513,9 +1497,7 @@ paths:
       tags:
         - alerting
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       operationId: post-alerting-rule-id
@@ -2914,9 +2896,7 @@ paths:
       tags:
         - alerting
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       operationId: put-alerting-rule-id
@@ -3954,9 +3934,7 @@ paths:
       tags:
         - alerting
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/alerting/rule/{id}/_disable:
     post:
@@ -4000,9 +3978,7 @@ paths:
       tags:
         - alerting
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/alerting/rule/{id}/_enable:
     post:
@@ -4034,9 +4010,7 @@ paths:
       tags:
         - alerting
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/alerting/rule/{id}/_mute_all:
     post:
@@ -4068,9 +4042,7 @@ paths:
       tags:
         - alerting
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/alerting/rule/{id}/_unmute_all:
     post:
@@ -4102,9 +4074,7 @@ paths:
       tags:
         - alerting
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/alerting/rule/{id}/_update_api_key:
     post:
@@ -4138,9 +4108,7 @@ paths:
       tags:
         - alerting
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/alerting/rule/{id}/snooze_schedule:
     post:
@@ -4314,9 +4282,7 @@ paths:
         - alerting
       x-state: Generally available
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/alerting/rule/{rule_id}/alert/{alert_id}/_mute:
     post:
@@ -4354,9 +4320,7 @@ paths:
       tags:
         - alerting
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/alerting/rule/{rule_id}/alert/{alert_id}/_unmute:
     post:
@@ -4394,9 +4358,7 @@ paths:
       tags:
         - alerting
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/alerting/rule/{ruleId}/snooze_schedule/{scheduleId}:
     delete:
@@ -4435,9 +4397,7 @@ paths:
         - alerting
       x-state: Generally available
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/alerting/rules/_find:
     get:
@@ -5414,9 +5374,7 @@ paths:
       tags:
         - alerting
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/apm/agent_keys:
     post:
@@ -5475,9 +5433,7 @@ paths:
       tags:
         - APM agent keys
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/apm/fleet/apm_server_schema:
     post:
@@ -5534,9 +5490,7 @@ paths:
       tags:
         - APM server schema
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/apm/services/{serviceName}/annotation:
     post:
@@ -5610,9 +5564,7 @@ paths:
                 "message": "Deployment 1.2"
                 }'
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/apm/services/{serviceName}/annotation/search:
     get:
@@ -5673,9 +5625,7 @@ paths:
       tags:
         - APM annotations
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/apm/settings/agent-configuration:
     delete:
@@ -5727,9 +5677,7 @@ paths:
       tags:
         - APM agent configuration
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       operationId: getAgentConfigurations
@@ -5767,9 +5715,7 @@ paths:
       tags:
         - APM agent configuration
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       operationId: createUpdateAgentConfiguration
@@ -5826,9 +5772,7 @@ paths:
       tags:
         - APM agent configuration
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/apm/settings/agent-configuration/agent_name:
     get:
@@ -5872,9 +5816,7 @@ paths:
       tags:
         - APM agent configuration
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/apm/settings/agent-configuration/environments:
     get:
@@ -5915,9 +5857,7 @@ paths:
       tags:
         - APM agent configuration
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/apm/settings/agent-configuration/search:
     post:
@@ -5968,9 +5908,7 @@ paths:
       tags:
         - APM agent configuration
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/apm/settings/agent-configuration/view:
     get:
@@ -6018,9 +5956,7 @@ paths:
       tags:
         - APM agent configuration
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/apm/sourcemaps:
     get:
@@ -6084,9 +6020,7 @@ paths:
             -H 'kbn-xsrf: true' \
             -H 'Authorization: ApiKey ${YOUR_API_KEY}'
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: |
@@ -6157,9 +6091,7 @@ paths:
             -F 'bundle_filepath="/test/e2e/general-usecase/bundle.js"' \
             -F 'sourcemap="{\"version\":3,\"file\":\"static/js/main.chunk.js\",\"sources\":[\"fleet-source-map-client/src/index.css\",\"fleet-source-map-client/src/App.js\",\"webpack:///./src/index.css?bb0a\",\"fleet-source-map-client/src/index.js\",\"fleet-source-map-client/src/reportWebVitals.js\"],\"sourcesContent\":[\"content\"],\"mappings\":\"mapping\",\"sourceRoot\":\"\"}"' 
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/apm/sourcemaps/{id}:
     delete:
@@ -6224,9 +6156,7 @@ paths:
             -H 'kbn-xsrf: true' \
             -H 'Authorization: ApiKey ${YOUR_API_KEY}'
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/asset_criticality:
     delete:
@@ -6277,9 +6207,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Get the asset criticality record for a specific entity.
@@ -6314,9 +6242,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: |
@@ -6355,9 +6281,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/asset_criticality/bulk:
     post:
@@ -6426,9 +6350,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/asset_criticality/list:
     get:
@@ -6532,9 +6454,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/data_views:
     get:
@@ -6577,9 +6497,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/data_views/data_view:
     post:
@@ -6612,9 +6530,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/data_views/data_view/{viewId}:
     delete:
@@ -6637,9 +6553,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       operationId: getDataViewDefault
@@ -6665,9 +6579,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       operationId: updateDataViewDefault
@@ -6700,9 +6612,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/data_views/data_view/{viewId}/fields:
     post:
@@ -6747,9 +6657,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/data_views/data_view/{viewId}/runtime_field:
     post:
@@ -6789,9 +6697,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       operationId: createUpdateRuntimeFieldDefault
@@ -6849,9 +6755,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/data_views/data_view/{viewId}/runtime_field/{fieldName}:
     delete:
@@ -6872,9 +6776,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       operationId: getRuntimeFieldDefault
@@ -6908,9 +6810,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       operationId: updateRuntimeFieldDefault
@@ -6951,9 +6851,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/data_views/default:
     get:
@@ -6981,9 +6879,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       operationId: setDefaultDatailViewDefault
@@ -7030,9 +6926,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/data_views/swap_references:
     post:
@@ -7080,9 +6974,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/data_views/swap_references/_preview:
     post:
@@ -7123,9 +7015,7 @@ paths:
       tags:
         - data views
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/privileges:
     get:
@@ -7202,9 +7092,7 @@ paths:
       tags:
         - Security Detections API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/rules:
     delete:
@@ -7248,9 +7136,7 @@ paths:
               --request DELETE https://localhost:5601/api/detection_engine/rules?rule_id=bfeaf89b-a2a7-48a3-817f-e41829dc61ee \
               --header "Content-Type: application/json; Elastic-Api-Version=2023-10-31"
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: |
@@ -7362,9 +7248,7 @@ paths:
               --request GET https://localhost:5601/api/detection_engine/rules?rule_id=bfeaf89b-a2a7-48a3-817f-e41829dc61ee \
               --header "Content-Type: application/json; Elastic-Api-Version=2023-10-31"
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     patch:
       description: |
@@ -7491,9 +7375,7 @@ paths:
       tags:
         - Security Detections API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: |
@@ -8183,9 +8065,7 @@ paths:
       tags:
         - Security Detections API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: |
@@ -8359,9 +8239,7 @@ paths:
       tags:
         - Security Detections API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/rules/_bulk_action:
     post:
@@ -9413,9 +9291,7 @@ paths:
       tags:
         - Security Detections API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/rules/_export:
     post:
@@ -9498,9 +9374,7 @@ paths:
               ]
             }
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/rules/_find:
     get:
@@ -9672,9 +9546,7 @@ paths:
           source: |
             curl -X GET "localhost:5601/api/detection_engine/rules/_find?page=1&per_page=5&sort_field=enabled&sort_order=asc&filter=alert.attributes.name:windows" -H 'kbn-xsrf: true'
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/rules/_import:
     post:
@@ -9813,9 +9685,7 @@ paths:
             -H 'Content-Type: multipart/form-data'
             --form "file=@<link to file>"
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/rules/{id}/exceptions:
     post:
@@ -9964,9 +9834,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/rules/preview:
     post:
@@ -10053,9 +9921,7 @@ paths:
       tags:
         - Security Detections API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/signals/assignees:
     post:
@@ -10125,9 +9991,7 @@ paths:
       tags:
         - Security Detections API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/signals/search:
     post:
@@ -10256,9 +10120,7 @@ paths:
       tags:
         - Security Detections API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/signals/status:
     post:
@@ -10378,9 +10240,7 @@ paths:
       tags:
         - Security Detections API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/signals/tags:
     post:
@@ -10472,9 +10332,7 @@ paths:
       tags:
         - Security Detections API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/detection_engine/tags:
     get:
@@ -10502,9 +10360,7 @@ paths:
       tags:
         - Security Detections API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint_list:
     post:
@@ -10547,9 +10403,7 @@ paths:
       tags:
         - Security Endpoint Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint_list/items:
     delete:
@@ -10611,9 +10465,7 @@ paths:
       tags:
         - Security Endpoint Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Get the details of an Elastic Endpoint exception list item, specified by the `id` or `item_id` field.
@@ -10676,9 +10528,7 @@ paths:
       tags:
         - Security Endpoint Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: Create an Elastic Endpoint exception list item, and associate it with the Elastic Endpoint exception list.
@@ -10760,9 +10610,7 @@ paths:
       tags:
         - Security Endpoint Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: Update an Elastic Endpoint exception list item, specified by the `id` or `item_id` field.
@@ -10849,9 +10697,7 @@ paths:
       tags:
         - Security Endpoint Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint_list/items/_find:
     get:
@@ -10959,9 +10805,7 @@ paths:
       tags:
         - Security Endpoint Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action:
     get:
@@ -11029,9 +10873,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action_status:
     get:
@@ -11057,9 +10899,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/{action_id}:
     get:
@@ -11084,9 +10924,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/{action_id}/file/{file_id}:
     get:
@@ -11114,9 +10952,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/{action_id}/file/{file_id}/download:
     get:
@@ -11144,9 +10980,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/execute:
     post:
@@ -11169,9 +11003,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/get_file:
     post:
@@ -11194,9 +11026,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/isolate:
     post:
@@ -11257,9 +11087,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/kill_process:
     post:
@@ -11282,9 +11110,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/running_procs:
     post:
@@ -11307,9 +11133,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/runscript:
     post:
@@ -11332,9 +11156,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/scan:
     post:
@@ -11357,9 +11179,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/state:
     get:
@@ -11376,9 +11196,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/suspend_process:
     post:
@@ -11401,9 +11219,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/unisolate:
     post:
@@ -11464,9 +11280,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/action/upload:
     post:
@@ -11489,9 +11303,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/metadata:
     get:
@@ -11538,9 +11350,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/metadata/{id}:
     get:
@@ -11563,9 +11373,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/policy_response:
     get:
@@ -11590,9 +11398,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/endpoint/protection_updates_note/{package_policy_id}:
     get:
@@ -11614,9 +11420,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       operationId: CreateUpdateProtectionUpdatesNote
@@ -11646,9 +11450,7 @@ paths:
       tags:
         - Security Endpoint Management API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_analytics/monitoring/engine/delete:
     delete:
@@ -11677,9 +11479,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_analytics/monitoring/engine/disable:
     post:
@@ -11695,9 +11495,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_analytics/monitoring/engine/init:
     post:
@@ -11713,9 +11511,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_analytics/monitoring/privileges/health:
     get:
@@ -11747,9 +11543,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_analytics/monitoring/privileges/privileges:
     get:
@@ -11773,9 +11567,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_analytics/monitoring/users:
     post:
@@ -11797,9 +11589,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_analytics/monitoring/users/_csv:
     post:
@@ -11848,9 +11638,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_analytics/monitoring/users/{id}:
     delete:
@@ -11881,9 +11669,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       operationId: UpdatePrivMonUser
@@ -11910,9 +11696,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_analytics/monitoring/users/list:
     get:
@@ -11937,9 +11721,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_analytics/privileged_user_monitoring/pad/install:
     post:
@@ -11960,9 +11742,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_analytics/privileged_user_monitoring/pad/status:
     get:
@@ -12013,9 +11793,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_store/enable:
     post:
@@ -12094,9 +11872,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_store/engines:
     get:
@@ -12119,9 +11895,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_store/engines/{entityType}:
     delete:
@@ -12153,9 +11927,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       operationId: GetEntityEngine
@@ -12177,9 +11949,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_store/engines/{entityType}/init:
     post:
@@ -12254,9 +12024,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_store/engines/{entityType}/start:
     post:
@@ -12282,9 +12050,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_store/engines/{entityType}/stop:
     post:
@@ -12310,9 +12076,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_store/engines/apply_dataview_indices:
     post:
@@ -12363,9 +12127,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_store/entities/list:
     get:
@@ -12444,9 +12206,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/entity_store/status:
     get:
@@ -12485,9 +12245,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/exception_lists:
     delete:
@@ -12614,9 +12372,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Get the details of an exception list using the `id` or `list_id` field.
@@ -12737,9 +12493,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: |
@@ -12941,9 +12695,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: Update an exception list using the `id` or `list_id` field.
@@ -13085,9 +12837,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/exception_lists/_duplicate:
     post:
@@ -13217,9 +12967,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/exception_lists/_export:
     post:
@@ -13336,9 +13084,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/exception_lists/_find:
     get:
@@ -13510,9 +13256,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/exception_lists/_import:
     post:
@@ -13662,9 +13406,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/exception_lists/items:
     delete:
@@ -13794,9 +13536,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Get the details of an exception list item using the `id` or `item_id` field.
@@ -13927,9 +13667,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: |
@@ -14253,9 +13991,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: Update an exception list item using the `id` or `item_id` field.
@@ -14415,9 +14151,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/exception_lists/items/_find:
     get:
@@ -14629,9 +14363,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/exception_lists/summary:
     get:
@@ -14759,9 +14491,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/exceptions/shared:
     post:
@@ -14884,9 +14614,7 @@ paths:
       tags:
         - Security Exceptions API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_download_sources:
     get:
@@ -14990,9 +14718,7 @@ paths:
       tags:
         - Elastic Agent binary download sources
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: '[Required authorization] Route required privileges: fleet-settings-all.'
@@ -15145,9 +14871,7 @@ paths:
       tags:
         - Elastic Agent binary download sources
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_download_sources/{sourceId}:
     delete:
@@ -15202,9 +14926,7 @@ paths:
       tags:
         - Elastic Agent binary download sources
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: 'Get an agent binary download source by ID.<br/><br/>[Required authorization] Route required privileges: fleet-agent-policies-read OR fleet-settings-read.'
@@ -15301,9 +15023,7 @@ paths:
       tags:
         - Elastic Agent binary download sources
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: 'Update an agent binary download source by ID.<br/><br/>[Required authorization] Route required privileges: fleet-settings-all.'
@@ -15461,9 +15181,7 @@ paths:
       tags:
         - Elastic Agent binary download sources
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_policies:
     get:
@@ -16203,9 +15921,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: '[Required authorization] Route required privileges: fleet-agent-policies-all.'
@@ -17101,9 +16817,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_policies/_bulk_get:
     post:
@@ -17808,9 +17522,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_policies/{agentPolicyId}:
     get:
@@ -18492,9 +18204,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: 'Update an agent policy by ID.<br/><br/>[Required authorization] Route required privileges: fleet-agent-policies-all.'
@@ -19400,9 +19110,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_policies/{agentPolicyId}/auto_upgrade_agents_status:
     get:
@@ -19467,9 +19175,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_policies/{agentPolicyId}/copy:
     post:
@@ -20172,9 +19878,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_policies/{agentPolicyId}/download:
     get:
@@ -20251,9 +19955,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_policies/{agentPolicyId}/full:
     get:
@@ -20658,9 +20360,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_policies/{agentPolicyId}/outputs:
     get:
@@ -20763,9 +20463,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_policies/delete:
     post:
@@ -20832,9 +20530,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_policies/outputs:
     post:
@@ -20955,9 +20651,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_status:
     get:
@@ -21055,9 +20749,7 @@ paths:
       tags:
         - Elastic Agent status
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agent_status/data:
     get:
@@ -21139,9 +20831,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents:
     get:
@@ -21558,9 +21248,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: '[Required authorization] Route required privileges: fleet-agents-read.'
@@ -21624,9 +21312,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/{agentId}:
     delete:
@@ -21683,9 +21369,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: 'Get an agent by ID.<br/><br/>[Required authorization] Route required privileges: fleet-agents-read.'
@@ -22014,9 +21698,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: 'Update an agent by ID.<br/><br/>[Required authorization] Route required privileges: fleet-agents-all.'
@@ -22360,9 +22042,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/{agentId}/actions:
     post:
@@ -22505,9 +22185,7 @@ paths:
       tags:
         - Elastic Agent actions
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/{agentId}/reassign:
     post:
@@ -22569,9 +22247,7 @@ paths:
       tags:
         - Elastic Agent actions
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/{agentId}/request_diagnostics:
     post:
@@ -22640,9 +22316,7 @@ paths:
       tags:
         - Elastic Agent actions
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/{agentId}/unenroll:
     post:
@@ -22678,9 +22352,7 @@ paths:
       tags:
         - Elastic Agent actions
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/{agentId}/upgrade:
     post:
@@ -22748,9 +22420,7 @@ paths:
       tags:
         - Elastic Agent actions
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/{agentId}/uploads:
     get:
@@ -22830,9 +22500,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/action_status:
     get:
@@ -23000,9 +22668,7 @@ paths:
       tags:
         - Elastic Agent actions
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/actions/{actionId}/cancel:
     post:
@@ -23095,9 +22761,7 @@ paths:
       tags:
         - Elastic Agent actions
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/available_versions:
     get:
@@ -23142,9 +22806,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/bulk_reassign:
     post:
@@ -23217,9 +22879,7 @@ paths:
       tags:
         - Elastic Agent actions
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/bulk_request_diagnostics:
     post:
@@ -23292,9 +22952,7 @@ paths:
       tags:
         - Elastic Agent actions
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/bulk_unenroll:
     post:
@@ -23372,9 +23030,7 @@ paths:
       tags:
         - Elastic Agent actions
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/bulk_update_agent_tags:
     post:
@@ -23452,9 +23108,7 @@ paths:
       tags:
         - Elastic Agent actions
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/bulk_upgrade:
     post:
@@ -23538,9 +23192,7 @@ paths:
       tags:
         - Elastic Agent actions
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/files/{fileId}:
     delete:
@@ -23598,9 +23250,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/files/{fileId}/{fileName}:
     get:
@@ -23647,9 +23297,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/setup:
     get:
@@ -23717,9 +23365,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: '[Required authorization] Route required privileges: fleet-agents-read OR fleet-agent-policies-read OR fleet-settings-read OR fleet-setup.'
@@ -23783,9 +23429,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/agents/tags:
     get:
@@ -23841,9 +23485,7 @@ paths:
       tags:
         - Elastic Agents
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/check-permissions:
     get:
@@ -23896,9 +23538,7 @@ paths:
       tags:
         - Fleet internals
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/data_streams:
     get:
@@ -24002,9 +23642,7 @@ paths:
       tags:
         - Data streams
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/enrollment_api_keys:
     get:
@@ -24139,9 +23777,7 @@ paths:
       tags:
         - Fleet enrollment API keys
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: '[Required authorization] Route required privileges: fleet-agents-all.'
@@ -24239,9 +23875,7 @@ paths:
       tags:
         - Fleet enrollment API keys
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/enrollment_api_keys/{keyId}:
     delete:
@@ -24298,9 +23932,7 @@ paths:
       tags:
         - Fleet enrollment API keys
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: 'Get an enrollment API key by ID.<br/><br/>[Required authorization] Route required privileges: fleet-agents-all OR fleet-setup.'
@@ -24376,9 +24008,7 @@ paths:
       tags:
         - Fleet enrollment API keys
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/bulk_assets:
     post:
@@ -24476,9 +24106,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/categories:
     get:
@@ -24549,9 +24177,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/custom_integrations:
     post:
@@ -24698,9 +24324,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/custom_integrations/{pkgName}:
     put:
@@ -24760,9 +24384,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/data_streams:
     get:
@@ -24844,9 +24466,7 @@ paths:
       tags:
         - Data streams
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages:
     get:
@@ -25258,9 +24878,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: '[Required authorization] Route required privileges: integrations-all AND fleet-agent-policies-all.'
@@ -25391,9 +25009,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/_bulk:
     post:
@@ -25577,9 +25193,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/_bulk_uninstall:
     post:
@@ -25655,9 +25269,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/_bulk_uninstall/{taskId}:
     get:
@@ -25734,9 +25346,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/_bulk_upgrade:
     post:
@@ -25816,9 +25426,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/_bulk_upgrade/{taskId}:
     get:
@@ -25895,9 +25503,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/{pkgName}/{pkgVersion}:
     delete:
@@ -26014,9 +25620,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       operationId: get-fleet-epm-packages-pkgname-pkgversion
@@ -26501,9 +26105,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: '[Required authorization] Route required privileges: integrations-all AND fleet-agent-policies-all.'
@@ -26657,9 +26259,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: '[Required authorization] Route required privileges: integrations-all AND fleet-agent-policies-all.'
@@ -27134,9 +26734,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/{pkgName}/{pkgVersion}/{filePath}:
     get:
@@ -27187,9 +26785,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/{pkgName}/{pkgVersion}/datastream_assets:
     delete:
@@ -27254,9 +26850,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/{pkgName}/{pkgVersion}/kibana_assets:
     delete:
@@ -27316,9 +26910,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: '[Required authorization] Route required privileges: integrations-all AND fleet-agent-policies-all.'
@@ -27393,9 +26985,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/{pkgName}/{pkgVersion}/transforms/authorize:
     post:
@@ -27486,9 +27076,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/{pkgName}/stats:
     get:
@@ -27542,9 +27130,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/installed:
     get:
@@ -27697,9 +27283,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/packages/limited:
     get:
@@ -27744,9 +27328,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/templates/{pkgName}/{pkgVersion}/inputs:
     get:
@@ -27853,9 +27435,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/epm/verification_key_id:
     get:
@@ -27899,9 +27479,7 @@ paths:
       tags:
         - Elastic Package Manager (EPM)
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/fleet_server_hosts:
     get:
@@ -28036,9 +27614,7 @@ paths:
       tags:
         - Fleet Server hosts
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: '[Required authorization] Route required privileges: fleet-settings-all.'
@@ -28253,9 +27829,7 @@ paths:
       tags:
         - Fleet Server hosts
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/fleet_server_hosts/{itemId}:
     delete:
@@ -28310,9 +27884,7 @@ paths:
       tags:
         - Fleet Server hosts
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: 'Get a Fleet Server host by ID.<br/><br/>[Required authorization] Route required privileges: fleet-settings-read.'
@@ -28440,9 +28012,7 @@ paths:
       tags:
         - Fleet Server hosts
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: 'Update a Fleet Server host by ID.<br/><br/>[Required authorization] Route required privileges: fleet-settings-all.'
@@ -28655,9 +28225,7 @@ paths:
       tags:
         - Fleet Server hosts
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/health_check:
     post:
@@ -28742,9 +28310,7 @@ paths:
       tags:
         - Fleet internals
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/kubernetes:
     get:
@@ -28802,9 +28368,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/kubernetes/download:
     get:
@@ -28876,9 +28440,7 @@ paths:
       tags:
         - Elastic Agent policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/logstash_api_keys:
     post:
@@ -28928,9 +28490,7 @@ paths:
       tags:
         - Fleet outputs
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/message_signing_service/rotate_key_pair:
     post:
@@ -29006,9 +28566,7 @@ paths:
       tags:
         - Message Signing Service
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/outputs:
     get:
@@ -29783,9 +29341,7 @@ paths:
       tags:
         - Fleet outputs
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: '[Required authorization] Route required privileges: fleet-settings-all.'
@@ -31281,9 +30837,7 @@ paths:
       tags:
         - Fleet outputs
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/outputs/{outputId}:
     delete:
@@ -31358,9 +30912,7 @@ paths:
       tags:
         - Fleet outputs
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: 'Get output by ID.<br/><br/>[Required authorization] Route required privileges: fleet-settings-read OR fleet-agent-policies-read.'
@@ -32128,9 +31680,7 @@ paths:
       tags:
         - Fleet outputs
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: 'Update output by ID.<br/><br/>[Required authorization] Route required privileges: fleet-settings-all OR fleet-agent-policies-all.'
@@ -33610,9 +33160,7 @@ paths:
       tags:
         - Fleet outputs
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/outputs/{outputId}/health:
     get:
@@ -33669,9 +33217,7 @@ paths:
       tags:
         - Fleet outputs
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/package_policies:
     get:
@@ -34149,9 +33695,7 @@ paths:
       tags:
         - Fleet package policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       operationId: post-fleet-package-policies
@@ -35025,9 +34569,7 @@ paths:
       tags:
         - Fleet package policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/package_policies/_bulk_get:
     post:
@@ -35492,9 +35034,7 @@ paths:
       tags:
         - Fleet package policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/package_policies/{packagePolicyId}:
     delete:
@@ -35554,9 +35094,7 @@ paths:
       tags:
         - Fleet package policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Get a package policy by ID.
@@ -36001,9 +35539,7 @@ paths:
       tags:
         - Fleet package policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: Update a package policy by ID.
@@ -36876,9 +36412,7 @@ paths:
       tags:
         - Fleet package policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/package_policies/delete:
     post:
@@ -37014,9 +36548,7 @@ paths:
       tags:
         - Fleet package policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/package_policies/upgrade:
     post:
@@ -37096,9 +36628,7 @@ paths:
       tags:
         - Fleet package policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/package_policies/upgrade/dryrun:
     post:
@@ -37945,9 +37475,7 @@ paths:
       tags:
         - Fleet package policies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/proxies:
     get:
@@ -38033,9 +37561,7 @@ paths:
       tags:
         - Fleet proxies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: '[Required authorization] Route required privileges: fleet-settings-all.'
@@ -38152,9 +37678,7 @@ paths:
       tags:
         - Fleet proxies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/proxies/{itemId}:
     delete:
@@ -38209,9 +37733,7 @@ paths:
       tags:
         - Fleet proxies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: 'Get a proxy by ID.<br/><br/>[Required authorization] Route required privileges: fleet-settings-read.'
@@ -38290,9 +37812,7 @@ paths:
       tags:
         - Fleet proxies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: 'Update a proxy by ID.<br/><br/>[Required authorization] Route required privileges: fleet-settings-all.'
@@ -38411,9 +37931,7 @@ paths:
       tags:
         - Fleet proxies
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/remote_synced_integrations/{outputId}/remote_status:
     get:
@@ -38548,9 +38066,7 @@ paths:
       tags:
         - CCR Remote synced integrations
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/remote_synced_integrations/status:
     get:
@@ -38680,9 +38196,7 @@ paths:
       tags:
         - CCR Remote synced integrations
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/service_tokens:
     post:
@@ -38746,9 +38260,7 @@ paths:
       tags:
         - Fleet service tokens
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/settings:
     get:
@@ -38844,9 +38356,7 @@ paths:
       tags:
         - Fleet internals
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: '[Required authorization] Route required privileges: fleet-settings-all.'
@@ -38979,9 +38489,7 @@ paths:
       tags:
         - Fleet internals
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/setup:
     post:
@@ -39058,9 +38566,7 @@ paths:
       tags:
         - Fleet internals
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/space_settings:
     get:
@@ -39092,9 +38598,7 @@ paths:
       tags: []
       x-state: Generally available
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: '[Required authorization] Route required privileges: fleet-settings-all.'
@@ -39144,9 +38648,7 @@ paths:
       tags: []
       x-state: Generally available
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/uninstall_tokens:
     get:
@@ -39245,9 +38747,7 @@ paths:
       tags:
         - Fleet uninstall tokens
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/fleet/uninstall_tokens/{uninstallTokenId}:
     get:
@@ -39317,9 +38817,7 @@ paths:
       tags:
         - Fleet uninstall tokens
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/lists:
     delete:
@@ -39437,9 +38935,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Get the details of a value list using the list ID.
@@ -39537,9 +39033,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     patch:
       description: Update specific fields of an existing list using the list `id`.
@@ -39656,9 +39150,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: Create a new value list.
@@ -39853,9 +39345,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: |
@@ -39978,9 +39468,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/lists/_find:
     get:
@@ -40140,9 +39628,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/lists/index:
     delete:
@@ -40207,9 +39693,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Verify that `.lists` and `.items` data streams exist.
@@ -40276,9 +39760,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: Create `.lists` and `.items` data streams in the relevant space.
@@ -40348,9 +39830,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/lists/items:
     delete:
@@ -40476,9 +39956,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Get the details of a value list item.
@@ -40591,9 +40069,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     patch:
       description: Update specific fields of an existing value list item using the item `id`.
@@ -40710,9 +40186,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: |
@@ -40884,9 +40358,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: |
@@ -41001,9 +40473,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/lists/items/_export:
     post:
@@ -41093,9 +40563,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/lists/items/_find:
     get:
@@ -41254,9 +40722,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/lists/items/_import:
     post:
@@ -41423,9 +40889,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/lists/privileges:
     get:
@@ -41563,9 +41027,7 @@ paths:
       tags:
         - Security Lists API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/maintenance_window:
     post:
@@ -41804,9 +41266,7 @@ paths:
         - maintenance-window
       x-state: Generally available
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/maintenance_window/{id}:
     delete:
@@ -41840,9 +41300,7 @@ paths:
         - maintenance-window
       x-state: Generally available
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: '[Required authorization] Route required privileges: read-maintenance-window.'
@@ -41986,9 +41444,7 @@ paths:
         - maintenance-window
       x-state: Generally available
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     patch:
       description: '[Required authorization] Route required privileges: write-maintenance-window.'
@@ -42232,9 +41688,7 @@ paths:
         - maintenance-window
       x-state: Generally available
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/maintenance_window/{id}/_archive:
     post:
@@ -42386,9 +41840,7 @@ paths:
         - maintenance-window
       x-state: Generally available
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/maintenance_window/{id}/_unarchive:
     post:
@@ -42540,9 +41992,7 @@ paths:
         - maintenance-window
       x-state: Generally available
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/ml/saved_objects/sync:
     get:
@@ -42571,9 +42021,7 @@ paths:
       tags:
         - ml
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/note:
     delete:
@@ -42610,9 +42058,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Get all notes for a given document.
@@ -42676,9 +42122,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     patch:
       description: Add a note to a Timeline or update an existing note.
@@ -42717,9 +42161,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/observability_ai_assistant/chat/complete:
     post:
@@ -42823,9 +42265,7 @@ paths:
             }'
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/osquery/live_queries:
     get:
@@ -42868,9 +42308,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: Create and run a live query.
@@ -42892,9 +42330,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/osquery/live_queries/{id}:
     get:
@@ -42919,9 +42355,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/osquery/live_queries/{id}/results/{actionId}:
     get:
@@ -42978,9 +42412,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/osquery/packs:
     get:
@@ -43018,9 +42450,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: Create a query pack.
@@ -43042,9 +42472,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/osquery/packs/{id}:
     delete:
@@ -43069,9 +42497,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Get the details of a query pack using the pack ID.
@@ -43093,9 +42519,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: |
@@ -43126,9 +42550,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/osquery/saved_queries:
     get:
@@ -43166,9 +42588,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: Create and run a saved query.
@@ -43190,9 +42610,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/osquery/saved_queries/{id}:
     delete:
@@ -43215,9 +42633,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Get the details of a saved query using the query ID.
@@ -43239,9 +42655,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: |
@@ -43272,9 +42686,7 @@ paths:
       tags:
         - Security Osquery API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/pinned_event:
     patch:
@@ -43315,9 +42727,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/risk_score/engine/dangerously_delete_data:
     delete:
@@ -43349,9 +42759,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/risk_score/engine/saved_object/configure:
     patch:
@@ -43405,9 +42813,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/risk_score/engine/schedule_now:
     post:
@@ -43439,9 +42845,7 @@ paths:
       tags:
         - Security Entity Analytics API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/saved_objects/_export:
     post:
@@ -43592,9 +42996,7 @@ paths:
       tags:
         - saved objects
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/saved_objects/_import:
     post:
@@ -43735,9 +43137,7 @@ paths:
               -H "kbn-xsrf: true"
               --form file=@file.ndjson
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/anonymization_fields/_bulk_action:
     post:
@@ -43867,9 +43267,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/anonymization_fields/_find:
     get:
@@ -44044,9 +43442,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/chat/complete:
     post:
@@ -44116,9 +43512,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/current_user/conversations:
     delete:
@@ -44179,9 +43573,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: Create a new Security AI Assistant conversation. This endpoint allows the user to initiate a conversation with the Security AI Assistant by providing the required parameters.
@@ -44249,9 +43641,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/current_user/conversations/_find:
     get:
@@ -44359,9 +43749,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/current_user/conversations/{id}:
     delete:
@@ -44420,9 +43808,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Get the details of an existing conversation using the conversation ID. This allows users to fetch the specific conversation data by its unique ID.
@@ -44480,9 +43866,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: Update an existing conversation using the conversation ID. This endpoint allows users to modify the details of an existing conversation.
@@ -44558,9 +43942,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/knowledge_base/{resource}:
     get:
@@ -44628,9 +44010,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: Create a KnowledgeBase
@@ -44687,9 +44067,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/knowledge_base/entries:
     post:
@@ -44736,9 +44114,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/knowledge_base/entries/_bulk_action:
     post:
@@ -44801,9 +44177,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/knowledge_base/entries/_find:
     get:
@@ -44913,9 +44287,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/knowledge_base/entries/{id}:
     delete:
@@ -44952,9 +44324,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Retrieve a Knowledge Base Entry by its unique `id`.
@@ -44995,9 +44365,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: Update an existing Knowledge Base Entry by its unique `id`.
@@ -45053,9 +44421,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/prompts/_bulk_action:
     post:
@@ -45168,9 +44534,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security_ai_assistant/prompts/_find:
     get:
@@ -45304,9 +44668,7 @@ paths:
       tags:
         - Security AI Assistant API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security/role:
     get:
@@ -45325,9 +44687,7 @@ paths:
       tags:
         - roles
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security/role/_query:
     post:
@@ -45379,9 +44739,7 @@ paths:
       summary: Query roles
       tags: []
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security/role/{name}:
     delete:
@@ -45407,9 +44765,7 @@ paths:
       tags:
         - roles
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       operationId: get-security-role-name
@@ -45434,9 +44790,7 @@ paths:
       tags:
         - roles
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: Create a new Kibana role or update the attributes of an existing role. Kibana roles are stored in the Elasticsearch native realm.
@@ -45645,9 +44999,7 @@ paths:
       tags:
         - roles
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/security/roles:
     post:
@@ -45849,9 +45201,7 @@ paths:
       tags:
         - roles
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/spaces/space:
     get:
@@ -45901,9 +45251,7 @@ paths:
       tags:
         - spaces
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       operationId: post-spaces-space
@@ -45963,9 +45311,7 @@ paths:
       tags:
         - spaces
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/spaces/space/{id}:
     delete:
@@ -45994,9 +45340,7 @@ paths:
       tags:
         - spaces
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       operationId: get-spaces-space-id
@@ -46019,9 +45363,7 @@ paths:
       tags:
         - spaces
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       operationId: put-spaces-space-id
@@ -46087,9 +45429,7 @@ paths:
       tags:
         - spaces
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/status:
     get:
@@ -46130,9 +45470,7 @@ paths:
       tags:
         - system
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams:
     get:
@@ -46157,9 +45495,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/_disable:
     post:
@@ -46191,9 +45527,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/_enable:
     post:
@@ -46225,9 +45559,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/_resync:
     post:
@@ -46259,9 +45591,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}:
     delete:
@@ -46298,9 +45628,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: 'Fetches a stream definition and associated dashboards<br/><br/>[Required authorization] Route required privileges: read_stream.'
@@ -46329,9 +45657,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: 'Creates or updates a stream definition. Classic streams can not be created through this API, only updated<br/><br/>[Required authorization] Route required privileges: manage_stream.'
@@ -51292,9 +50618,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/_fork:
     post:
@@ -51415,9 +50739,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/_group:
     get:
@@ -51447,9 +50769,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: 'Upserts the group settings of a group stream definition<br/><br/>[Required authorization] Route required privileges: manage_stream.'
@@ -51492,9 +50812,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/_ingest:
     get:
@@ -51524,9 +50842,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: 'Upserts the ingest settings of an ingest stream definition<br/><br/>[Required authorization] Route required privileges: manage_stream.'
@@ -53890,9 +53206,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/content/export:
     post:
@@ -53965,9 +53279,7 @@ paths:
       tags:
         - streams
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/content/import:
     post:
@@ -54004,9 +53316,7 @@ paths:
       tags:
         - streams
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/dashboards:
     get:
@@ -54036,9 +53346,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/dashboards/_bulk:
     post:
@@ -54102,9 +53410,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/dashboards/{dashboardId}:
     delete:
@@ -54146,9 +53452,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: 'Links a dashboard to a stream. Noop if the dashboard is already linked to the stream.<br/><br/>[Required authorization] Route required privileges: manage_stream.'
@@ -54189,9 +53493,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/queries:
     get:
@@ -54221,9 +53523,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/queries/_bulk:
     post:
@@ -54304,9 +53604,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/queries/{queryId}:
     delete:
@@ -54348,9 +53646,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: 'Adds a query to a stream. Noop if the query is already present on the stream.<br/><br/>[Required authorization] Route required privileges: manage_stream.'
@@ -54400,9 +53696,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/significant_events:
     get:
@@ -54447,9 +53741,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/streams/{name}/significant_events/_preview:
     post:
@@ -54512,9 +53804,7 @@ paths:
         - streams
       x-state: Technical Preview
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/task_manager/_health:
     get:
@@ -54535,9 +53825,7 @@ paths:
       tags:
         - task manager
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/timeline:
     delete:
@@ -54575,9 +53863,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: Get the details of an existing saved Timeline or Timeline template.
@@ -54604,9 +53890,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     patch:
       description: Update an existing Timeline. You can update the title, description, date range, pinned events, pinned queries, and/or pinned saved queries of an existing Timeline.
@@ -54661,9 +53945,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: Create a new Timeline or Timeline template.
@@ -54729,9 +54011,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/timeline/_copy:
     get:
@@ -54763,9 +54043,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/timeline/_draft:
     get:
@@ -54810,9 +54088,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: |
@@ -54865,9 +54141,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/timeline/_export:
     post:
@@ -54916,9 +54190,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/timeline/_favorite:
     patch:
@@ -54971,9 +54243,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/timeline/_import:
     post:
@@ -55049,9 +54319,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/timeline/_prepackaged:
     post:
@@ -55106,9 +54374,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/timeline/resolve:
     get:
@@ -55139,9 +54405,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /api/timelines:
     get:
@@ -55254,9 +54518,7 @@ paths:
       tags:
         - Security Timeline API
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /s/{spaceId}/api/observability/slos:
     get:
@@ -55363,9 +54625,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     post:
       description: |
@@ -55415,9 +54675,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /s/{spaceId}/api/observability/slos/_bulk_delete:
     post:
@@ -55462,9 +54720,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /s/{spaceId}/api/observability/slos/_bulk_delete/{taskId}:
     get:
@@ -55510,9 +54766,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /s/{spaceId}/api/observability/slos/_bulk_purge_rollup:
     post:
@@ -55557,9 +54811,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /s/{spaceId}/api/observability/slos/_delete_instances:
     post:
@@ -55600,9 +54852,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /s/{spaceId}/api/observability/slos/{sloId}:
     delete:
@@ -55644,9 +54894,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     get:
       description: |
@@ -55697,9 +54945,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
     put:
       description: |
@@ -55750,9 +54996,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /s/{spaceId}/api/observability/slos/{sloId}/_reset:
     post:
@@ -55798,9 +55042,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /s/{spaceId}/api/observability/slos/{sloId}/disable:
     post:
@@ -55842,9 +55084,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /s/{spaceId}/api/observability/slos/{sloId}/enable:
     post:
@@ -55886,9 +55126,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
   /s/{spaceId}/internal/observability/slos/_definitions:
     get:
@@ -55958,9 +55196,7 @@ paths:
       tags:
         - slo
       x-metaTags:
-        - content: Kibana
-          name: product_name
-        - content: Elastic Cloud Serverless
+        - content: Kibana, Elastic Cloud Serverless
           name: product_name
 components:
   examples:
