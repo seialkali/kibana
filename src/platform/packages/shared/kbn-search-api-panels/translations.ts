@@ -26,6 +26,13 @@ export const EIS_COSTS_TOUR_TITLE = i18n.translate('searchApiPanels.eisCosts.tou
   defaultMessage: 'Elastic Inference Service (EIS) now available',
 });
 
+export const EIS_UPGRADE_CALLOUT_TITLE = i18n.translate(
+  'searchApiPanels.eisUpgrade.callout.title',
+  {
+    defaultMessage: 'Elastic Inference Service (EIS) now available',
+  }
+);
+
 // DESCRIPTIONS
 
 export const EIS_PROMO_CALLOUT_DESCRIPTION = i18n.translate(
@@ -51,14 +58,29 @@ export const EIS_COSTS_TOUR_DESCRIPTION = i18n.translate(
   }
 );
 
+export const EIS_UPGRADE_CALLOUT_DESCRIPTION = i18n.translate(
+  'searchApiPanels.eisUpgrade.callout.description',
+  {
+    defaultMessage:
+      'Explore how to start using inference models from the Elastic Inference Service.',
+  }
+);
+
 // CALL TO ACTIONS
 
-export const EIS_PROMO_CALLOUT_CTA = i18n.translate('searchApiPanels.eisPromotion.callout.cta', {
-  defaultMessage: 'Get started',
-});
+export const EIS_CALLOUT_DOCUMENTATION_BTN = i18n.translate(
+  'searchApiPanels.eisPromotion.callout.documentation.button',
+  {
+    defaultMessage: 'View documentation',
+  }
+);
 
 export const EIS_TOUR_CTA = i18n.translate('searchApiPanels.eis.tour.cta', {
   defaultMessage: 'Learn more',
+});
+
+export const EIS_UPGRADE_CALLOUT_CTA = i18n.translate('searchApiPanels.eisUpgrade.callout.cta', {
+  defaultMessage: 'Upgrade to ELSER on EIS',
 });
 
 // DISMISS BUTTON

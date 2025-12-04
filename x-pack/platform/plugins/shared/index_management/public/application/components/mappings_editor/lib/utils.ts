@@ -10,6 +10,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { cloneDeep, isEmpty } from 'lodash';
 import type { InferenceServiceSettings } from '@elastic/elasticsearch/lib/api/types';
 import type { LocalInferenceServiceSettings } from '@kbn/ml-trained-models-utils/src/constants/trained_models';
+import type { EuiSelectableOption } from '@elastic/eui';
 import type {
   ChildFieldName,
   ComboBoxOption,
@@ -41,6 +42,11 @@ import {
 
 import type { TreeItem } from '../components/tree';
 import type { FieldConfig } from '../shared_imports';
+import {
+  ELSER_INFERENCE_ENDPOINT_ID,
+  ELSER_ON_EIS_INFERENCE_ENDPOINT_ID,
+} from '../../../constants/mappings';
+import type { MappingsOptionType } from '../../../sections/home/index_list/details_page/update_elser_mappings/update_elser_mappings_modal';
 
 export const getUniqueId = () => uuidv4();
 
@@ -805,3 +811,38 @@ export function isLocalModel(
 ): model is LocalInferenceServiceSettings {
   return ['elser', 'elasticsearch'].includes((model as LocalInferenceServiceSettings).service);
 }
+
+export function hasElserSemanticTextField(fields: NormalizedFields): boolean {
+  return Object.values(fields.byId).some(
+    (field) => field.source.inference_id === ELSER_INFERENCE_ENDPOINT_ID
+  );
+}
+
+export const getAllElserFields = (
+  mappings: NormalizedFields
+): EuiSelectableOption<MappingsOptionType>[] => {
+  const elserMappings = Object.values(mappings.byId).filter(
+    (field) => field.source.inference_id === ELSER_INFERENCE_ENDPOINT_ID
+  );
+
+  return elserMappings.map((field) => ({
+    label: field.source.name,
+    key: field.id,
+    data: {
+      inference_id: field.source.inference_id as string,
+    },
+  }));
+};
+
+export const deNormalizeSelectedElserMappings = (
+  mappings: EuiSelectableOption<MappingsOptionType>[]
+): Fields => {
+  return mappings.reduce((acc, mapping) => {
+    acc[mapping.label] = {
+      type: 'semantic_text',
+      inference_id: ELSER_ON_EIS_INFERENCE_ENDPOINT_ID,
+    };
+
+    return acc;
+  }, {} as Fields);
+};

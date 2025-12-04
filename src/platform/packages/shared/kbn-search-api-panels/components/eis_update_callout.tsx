@@ -13,42 +13,41 @@ import {
   EuiButtonIcon,
   EuiFlexGroup,
   EuiImage,
+  EuiLink,
   EuiPanel,
   EuiSpacer,
   EuiText,
   EuiTitle,
 } from '@elastic/eui';
-import searchRocketIcon from '../assets/search-rocket.svg';
-import {
-  EIS_CALLOUT_DOCUMENTATION_BTN,
-  EIS_PROMO_CALLOUT_DESCRIPTION,
-  EIS_PROMO_CALLOUT_DISMISS_ARIA,
-  EIS_PROMO_CALLOUT_ICON_ALT,
-  EIS_PROMO_CALLOUT_TITLE,
-} from '../translations';
+import * as i18n from '../translations';
 import { useShowEisPromotionalContent } from '../hooks/use_show_eis_promotional_content';
+import searchRocketIcon from '../assets/search-rocket.svg';
 
-export interface EisPromotionalCalloutProps {
+export interface EisUpgradeCalloutProps {
   ctaLink: string;
   promoId: string;
   isCloudEnabled: boolean;
+  handleOnClick: () => void;
   direction: 'row' | 'column';
+  hasUpdatePrivileges: boolean | undefined;
 }
 
-export const EisPromotionalCallout = ({
+export const EisUpdateCallout = ({
   ctaLink,
   promoId,
   isCloudEnabled,
+  handleOnClick,
   direction,
-}: EisPromotionalCalloutProps) => {
+  hasUpdatePrivileges,
+}: EisUpgradeCalloutProps) => {
   const { isPromoVisible, onDismissTour } = useShowEisPromotionalContent({
-    promoId: `${promoId}Callout`,
+    promoId: `${promoId}UpdateCallout`,
     isCloudEnabled,
   });
 
-  const dataId = `${promoId}-eis-promo-callout`;
+  const dataId = `${promoId}-eis-update-callout`;
 
-  if (!isPromoVisible) {
+  if (!isPromoVisible || hasUpdatePrivileges === false) {
     return null;
   }
 
@@ -66,37 +65,33 @@ export const EisPromotionalCallout = ({
       color="subdued"
     >
       <div style={{ position: 'absolute', top: 8, right: 8 }}>
-        <EuiButtonIcon
-          data-test-subj="eisPromoCalloutDismissBtn"
-          iconType="cross"
-          aria-label={EIS_PROMO_CALLOUT_DISMISS_ARIA}
-          onClick={onDismissTour}
-          size="s"
-        />
+        <EuiButtonIcon iconType="cross" aria-label="Dismiss" onClick={onDismissTour} size="s" />
       </div>
       <EuiFlexGroup direction={direction} alignItems="flexStart">
-        <EuiImage src={searchRocketIcon} alt={EIS_PROMO_CALLOUT_ICON_ALT} size="original" />
+        <EuiImage src={searchRocketIcon} alt={i18n.EIS_PROMO_CALLOUT_ICON_ALT} size="original" />
         <div>
           <EuiTitle size="xxs">
-            <h2>{EIS_PROMO_CALLOUT_TITLE}</h2>
+            <h2>{i18n.EIS_PROMO_CALLOUT_TITLE}</h2>
           </EuiTitle>
           <EuiSpacer size="xs" />
           <EuiText color="subdued" size="s">
-            <p>{EIS_PROMO_CALLOUT_DESCRIPTION}</p>
+            <p>{i18n.EIS_UPGRADE_CALLOUT_DESCRIPTION}</p>
           </EuiText>
-          <EuiSpacer size="s" />
-          <EuiButton
-            fullWidth={false}
-            color="text"
-            size="s"
-            href={ctaLink}
-            data-test-subj="eisPromoCalloutCtaBtn"
-            target="_blank"
-            iconSide="right"
-            iconType="popout"
-          >
-            {EIS_CALLOUT_DOCUMENTATION_BTN}
-          </EuiButton>
+          <EuiSpacer size="m" />
+          <EuiFlexGroup direction="row" gutterSize="m" alignItems="center">
+            <EuiButton
+              fullWidth={false}
+              color="text"
+              size="s"
+              onClick={handleOnClick}
+              data-test-subj="eisUpgradeCalloutCtaBtn"
+            >
+              {i18n.EIS_UPGRADE_CALLOUT_CTA}
+            </EuiButton>
+            <EuiLink href={ctaLink} target="_blank" external color="text">
+              {i18n.EIS_CALLOUT_DOCUMENTATION_BTN}
+            </EuiLink>
+          </EuiFlexGroup>
         </div>
       </EuiFlexGroup>
     </EuiPanel>
